@@ -23,7 +23,7 @@ $(document).ready(function () {
     }
   })
 
-  window.cnUtils = new traaittCASHUtils.CryptoNote({
+  window.cnUtils = new traaittUtils.CryptoNote({
     coinUnitPlaces: ExplorerConfig.decimalPoints,
     addressPrefix: ExplorerConfig.addressPrefix
   })
